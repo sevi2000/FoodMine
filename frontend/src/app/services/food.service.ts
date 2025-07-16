@@ -1,0 +1,20 @@
+import { Injectable } from '@angular/core';
+import { Food } from '../shared/models/Food';
+import { sample_foods } from '../../data';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class FoodService {
+  constructor() {}
+  
+  getAll(): Food[] {
+    return sample_foods;
+  }
+
+  getAllFoodsBySearchTerm(searchTerm: string): Food[] {
+    return sample_foods.filter((food) => {
+      return food.name.toLowerCase().includes(searchTerm.toLowerCase());
+    })
+  }
+}

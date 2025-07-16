@@ -38,10 +38,10 @@ ul a {
 
 a span {
     background: #ff4d4d;
-    color: white;
+    color: white; 
     padding: .1rem .45rem;
     border-radius: 100rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
 .menu-container {
