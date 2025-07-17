@@ -42,10 +42,20 @@
         2. [x] Add ts
         3. [x] Add html
         4. [x] Add css
-6. [] Food Page
-    1. [] Add method to food service
-    2. [] Generate Food Page component
-        1. [] Add Route
+6. [x] Food Page
+    1. [x] Add method to food service
+    2. [x] Generate Food Page component
+        1. [x] Add Route
+        2. [x] Add ts
+        3. [x] Add html
+        4. [x] Add css
+7. Cart Page
+    1. [x] Create CartItem Model
+    2. [x] Create Cart Model
+    3. [x] Create Cart service
+    4. [x] Add to Cart Button in Food Page
+    5. [x] Generate Cart page component
+        1. [x] Add Route
         2. [] Add ts
         3. [] Add html
-        4. [] Add css
+        4. [] Add css 
