@@ -4,6 +4,12 @@ div {
     justify-content: center;
 }
 
+div a .selected {
+    background-color: blue;
+    color: #f0f0f0;
+
+}
+
 div a{
     background-color: #f0f0f0;
     padding: 0.3rem 1rem;

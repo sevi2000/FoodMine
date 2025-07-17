@@ -11,9 +11,11 @@ import { RouterLink } from '@angular/router';
 })
 export class TagsComponent {
   tags?: Tag[];
+  selected?: Tag;
 
   constructor(foodService: FoodService) {
     this.tags = foodService.getAllTags();
+    this.selected = this.tags.find((tag:Tag ) => tag.name === "All");
   }
 
 }
