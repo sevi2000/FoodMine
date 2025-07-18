@@ -6,10 +6,11 @@ import { Food } from '../../../shared/models/Food';
 import { TitleComponent } from '../../partials/title/title.component';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { NotFoundComponent } from '../../partials/not-found/not-found.component';
 
 @Component({
   selector: 'app-cart-page',
-  imports: [TitleComponent, RouterLink, CommonModule],
+  imports: [TitleComponent, RouterLink, CommonModule, NotFoundComponent],
   templateUrl: './cart-page.component.html',
   styleUrl: './cart-page.component.css'
 })

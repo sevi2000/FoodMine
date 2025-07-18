@@ -4,10 +4,11 @@ import { Component } from '@angular/core';
 import { Food } from '../../../shared/models/Food';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { NotFoundComponent } from '../../partials/not-found/not-found.component';
 
 @Component({
   selector: 'app-food-page',
-  imports: [RouterLink, CommonModule],
+  imports: [RouterLink, CommonModule, NotFoundComponent],
   templateUrl: './food-page.component.html',
   styleUrl: './food-page.component.css'
 })

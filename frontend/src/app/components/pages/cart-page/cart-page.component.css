@@ -66,6 +66,7 @@ li .remove-button {
 
 li .remove-button :hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .checkout {
@@ -108,7 +109,7 @@ li .remove-button :hover {
 .checkout a {
     padding: 1rem;
     color: white;
-    background-color: #e72929;
+    background: #e72929;
     display: block;
     width: 99%;
     border-radius: 1rem;
@@ -117,7 +118,7 @@ li .remove-button :hover {
     justify-self: center;
 }
 
-.checkout align-self :hover {
+.checkout a :hover {
     opacity: 1;
     cursor: pointer;
 }
