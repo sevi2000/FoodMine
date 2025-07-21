@@ -67,3 +67,18 @@
         1. [x] Home Page
         2. [x] Food Page
         3. [x] Cart Page
+9. Connect To Backend
+    1. [x] Create backend folder
+    2. [x] `npm init`
+    3. [x] `npm install typescript`
+    4. [x] Create `tsconfig.json`
+    5. [x] Cretate `.gitignore`
+    6. [x] Copy `data.ts` to `backend/src`
+    7. [x] `npm install express cors`
+    8. [x] Create `server.ts`
+        1. [x] Install `@types`
+        2. [x] Add Apis
+    9. [x] `npm install nodemon ts-node --save-dev`
+    10. [x] Add `urls.ts` to frontend
+    11. [x] Add HttpClient module
+    12. [x] Update food service

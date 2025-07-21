@@ -1,6 +1,6 @@
-@if (!food.id) {
+@if (!food) {
     <app-not-found
-    [visible]="!food.id"
+    [visible]="!food"
     notFoundMessage="Food not Found"
     resetLinkText="Back to Homepage"></app-not-found>
 } @else {
