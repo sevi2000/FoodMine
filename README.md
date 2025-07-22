@@ -82,3 +82,28 @@
     10. [x] Add `urls.ts` to frontend
     11. [x] Add HttpClient module
     12. [x] Update food service
+10. Login Page
+    1. [x] Generate Component
+        1. [x] Add to routes
+        2. [x] Add ts
+        3. [x] Add html
+            1. [x] Import Reactive Forms Module
+        4. [x] Add css
+    2. [x] Add Login Api
+        1. [x] Use json
+        2. [x] Add jsonwebtoken
+        3. [x] Test Using Postman
+    3. [x] Generate User Service
+        1. [x] Generate User model
+        2. [x] Add User Subject
+        3. [x] Add Login Method
+            1. [x] Add User Urls
+            2. [x] Generate IUserLogin interface
+            3. [x] Add `ngx-toastr`
+                1. [x] Import Module
+                2. [x] Import BrowserAnimationsModule
+                3. [x] Add styles in  `angular.json`
+            4. [x] Add to Header
+        1. [x] Add Local Storage methods
+        2. [x] Add Logout Method
+            1. [x] Add to Header
