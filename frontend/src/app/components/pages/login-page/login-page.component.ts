@@ -3,10 +3,12 @@ import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { TitleComponent } from '../../partials/title/title.component';
 import { ActivatedRoute, Route, Router } from '@angular/router';
+import { TextInputComponent } from '../../partials/text-input/text-input.component';
+import { DefaultButtonComponent } from '../../partials/default-button/default-button.component';
 
 @Component({
   selector: 'app-login-page',
-  imports: [ReactiveFormsModule,TitleComponent],
+  imports: [TextInputComponent, TitleComponent, ReactiveFormsModule, DefaultButtonComponent],
   templateUrl: './login-page.component.html',
   styleUrl: './login-page.component.css'
 })

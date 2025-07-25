@@ -107,3 +107,8 @@
         1. [x] Add Local Storage methods
         2. [x] Add Logout Method
             1. [x] Add to Header
+11. Make Components For Login Page
+    1. [x] Input Container
+    2. [x] Input Validation
+    3. [x] Text Input
+    4. [x] Default Button
