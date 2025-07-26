@@ -112,3 +112,15 @@
     2. [x] Input Validation
     3. [x] Text Input
     4. [x] Default Button
+12. Connect Login Api To MongoDB Atlas
+    1. [x] Moving Apis into routers
+    2. [x] Create MongoDB Atlas
+    3. [x] Create `.env` file
+    4. [] Install
+        1. [x] `mongoose`
+        2. [x] `dotenv`
+        3. [x] `bcryptjs`
+        4. [x] `jsonwebtoken`
+        5. [x] `express-async-handler`
+    5. [x] Connect to MongoDB Atlas
+    6. [x] Use MongoDB instead of `data.ts` in apis
